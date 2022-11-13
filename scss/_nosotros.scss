@@ -1,0 +1,39 @@
+main {
+
+    section {
+        &.imggal {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            place-items: center;
+            
+            section.imggal > div {
+                    margin: auto;
+                }
+
+
+            @media (max-width:768px) {  
+
+                &.imggal {
+                   display:flex;
+                   flex-direction: column;
+                    }
+                
+                    .ul-linea {
+                        margin-bottom: 5rem;
+
+                    }
+
+            }
+        }
+
+        .imgs {
+            margin: 1rem auto;
+            max-width: 300px;
+            max-height: 300px;
+        }
+
+    } 
+
+
+
+}

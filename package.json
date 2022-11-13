@@ -1,0 +1,28 @@
+{
+  "name": "curso",
+  "version": "1.0.0",
+  "description": "tercera preentrega",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "sass scss:css",
+    "watch": "sass scss:css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ManuRivera66/preentrega3RiveraManuel.git"
+  },
+  "keywords": [
+    "developer"
+  ],
+  "author": "Manuel Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ManuRivera66/preentrega3RiveraManuel/issues"
+  },
+  "homepage": "https://github.com/ManuRivera66/preentrega3RiveraManuel#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  }
+}

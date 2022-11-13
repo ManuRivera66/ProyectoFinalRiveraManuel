@@ -1,0 +1,24 @@
+main {
+
+    &.doscolumnas-ins {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        column-gap: 1rem;
+        /* Para la separacion entre las columnas de la parte de instructores. */ 
+        }
+    
+    .separacion-ins {
+        margin: 2rem;
+        /* Para la separacion entre las box de instructores. */
+    }
+    
+    @media (max-width:768px) {
+        &.doscolumnas-ins {
+           display:grid;
+           grid-template-columns: 100%;
+           padding-bottom: 5rem;
+           /* Para evitar que aueden mal los textos */
+            }
+    }
+    
+}

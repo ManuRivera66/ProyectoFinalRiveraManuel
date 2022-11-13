@@ -1,0 +1,26 @@
+header .menu {
+  text-decoration: none;
+  color: black; /* Color navegacion */
+}
+header .menu2 {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between; /* Display navegacion */
+}
+
+main .titulo {
+  color: var(--amafuerte);
+  text-align: center; /* Titulo Index */
+  background-image: url(../img/m2xG0J.gif); /*Gif de fondo*/
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 39.5rem;
+}
+@media (max-width: 500px) {
+  main .titulo {
+    height: 30rem;
+    /* Para evitar que se superponga el gif con el footer */
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

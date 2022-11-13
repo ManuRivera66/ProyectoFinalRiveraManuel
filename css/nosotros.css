@@ -1,0 +1,24 @@
+main section .imggal {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+main section .imgs {
+  margin: 1rem;
+  max-width: 300px;
+  max-height: 300px;
+  object-fit: fill;
+  /* Para la separacion entre las imagenes. */
+}
+@media (max-width: 768px) {
+  main .imggal {
+    display: flex;
+    flex-direction: column;
+    /* Para evitar que se superpongan los Iframes. */
+  }
+  main .ul-linea {
+    padding-bottom: 5rem;
+    /* Para evitar que el footer se ponga delante de la ultima linea de texto de la pagina. */
+  }
+}
+
+/*# sourceMappingURL=nosotros.css.map */

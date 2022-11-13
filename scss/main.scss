@@ -1,0 +1,22 @@
+body {
+    background-color: #222831;
+}
+
+$amaclaro: #FFFBE0;
+$amafuerte: #FCDA05;
+$fondo: #222831;
+$gris: #393E46;
+$telefono-chico: 300px;
+$tablet: 768px;
+$desktop: 1024px;
+$fuente:'Bitter', serif;
+$fondoimg: url(../img/tae21.png);
+
+@import "_agregados";
+@import "_contacto";
+@import "_index";
+@import "_instructores";
+@import "_nosotros";
+@import "_sucursales";
+@import "_footer";
+@import "_fondo";

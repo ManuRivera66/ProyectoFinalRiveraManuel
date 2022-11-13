@@ -1,0 +1,17 @@
+main .doscolumnas {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media (max-width: 768px) {
+  main .doscolumnas {
+    display: flex;
+    flex-direction: column;
+    /* Para evitar que se superpongan los Iframes. */
+  }
+  main .ul-linea {
+    padding-bottom: 5rem;
+    /* Para evitar que el footer se ponga delante de la ultima linea de texto de la pagina. */
+  }
+}
+
+/*# sourceMappingURL=sucursales.css.map */

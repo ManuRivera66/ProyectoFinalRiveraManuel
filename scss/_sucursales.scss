@@ -1,0 +1,30 @@
+main {
+    &.doscolumnas {
+        display: grid;
+        grid-template-columns: 50% 50%;
+
+    @media (max-width:768px) {
+        &.doscolumnas {
+            display:flex;
+            flex-direction: column;
+            /* Para evitar que se superpongan los Iframes. */
+        }
+    
+    }
+        
+        .ul-linea {
+            margin-bottom: 5rem;
+            /* Para evitar que el footer se ponga delante de la ultima linea de texto de la pagina. */ }
+            }
+
+    @media (max-width:420px) {
+        iframe {
+            max-width: 300px;
+            max-height: 300px;
+        }
+    }
+
+    .margi {
+        margin: 0 auto;
+    }
+}

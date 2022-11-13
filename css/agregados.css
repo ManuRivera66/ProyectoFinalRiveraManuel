@@ -1,0 +1,31 @@
+.borde {
+  border-radius: 10px 10px;
+  -moz-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border: 0px solid #000000;
+}
+
+.box {
+  -webkit-box-shadow: 0px 0px 5px 19px rgb(255, 251, 224);
+  -moz-box-shadow: 0px 0px 5px 19px rgb(255, 251, 224);
+  box-shadow: 0px 0px 5px 19px rgb(255, 251, 224);
+  background-color: #FCDA05;
+}
+
+.bck-ng {
+  background-color: #000000;
+  /* Fondo de color del box de INSTRUCTORES y CONTACTO */
+}
+
+.borde {
+  border-radius: 10px 10px;
+  -moz-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border: 0px solid #000000;
+}
+
+.amaletras {
+  color: #FCDA05;
+}
+
+/*# sourceMappingURL=agregados.css.map */

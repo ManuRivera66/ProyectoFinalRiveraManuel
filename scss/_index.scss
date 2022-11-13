@@ -1,0 +1,29 @@
+header {
+
+    .titulo {
+        background-color: $gris;
+        text-align: center; /* Titulo Index */
+    }
+
+    .ixt {
+        color: $amafuerte;
+        font-size: 50px;
+    }
+
+    .ubi {
+        color: $amafuerte;
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+
+}
+
+main {
+    .menui {
+        text-decoration: none; 
+        color: $amafuerte;
+        display: flex;
+        justify-content: center;
+        font-size: larger;
+    }
+}

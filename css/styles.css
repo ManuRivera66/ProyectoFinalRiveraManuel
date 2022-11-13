@@ -1,0 +1,210 @@
+body {
+  background-color: #222831;
+}
+
+.box, .boxborde {
+  -webkit-box-shadow: 0px 0px 5px 19px rgb(255, 251, 224);
+  -moz-box-shadow: 0px 0px 5px 19px rgb(255, 251, 224);
+  box-shadow: 0px 0px 5px 19px rgb(255, 251, 224);
+  background-color: #FCDA05;
+}
+
+.bck-ng {
+  background-color: #000000;
+  /* Fondo de color del box de INSTRUCTORES y CONTACTO */
+}
+
+.borde, .boxborde {
+  border-radius: 10px 10px;
+  -moz-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border: 1px solid #000000;
+}
+
+.amaletras {
+  color: #FCDA05;
+}
+
+main section.formu {
+  background-color: #393E46;
+  padding: 2rem;
+  margin: 1rem 1rem;
+  color: #FCDA05;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Formulario del contacto */
+}
+main section .formuparte {
+  margin: 2rem;
+}
+main section .contacto {
+  margin: 5rem;
+  text-align: center;
+}
+main section .animacion :hover {
+  transform: translatey(12rem); /*Animacion en el boton para que no se pueda apretar*/
+}
+main section .boton {
+  color: #FCDA05;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: none;
+}
+main section .nombre {
+  margin: 1rem;
+}
+main section .email {
+  margin: 1.5rem;
+}
+main section .telefono {
+  margin: 0.8rem;
+}
+main section .mensaje {
+  margin: 1rem;
+}
+main section .horario {
+  margin: 0.3rem;
+}
+
+header .titulo {
+  background-color: #393E46;
+  text-align: center; /* Titulo Index */
+}
+header .ixt {
+  color: #FCDA05;
+  font-size: 50px;
+}
+header .ubi {
+  color: #FCDA05;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+main .menui {
+  text-decoration: none;
+  color: #FCDA05;
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+}
+
+main.doscolumnas-ins {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 1rem;
+  /* Para la separacion entre las columnas de la parte de instructores. */
+}
+main .separacion-ins {
+  margin: 2rem;
+  /* Para la separacion entre las box de instructores. */
+}
+@media (max-width: 768px) {
+  main.doscolumnas-ins {
+    display: grid;
+    grid-template-columns: 100%;
+    padding-bottom: 5rem;
+    /* Para evitar que aueden mal los textos */
+  }
+}
+
+main section.imggal {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  place-items: center;
+}
+main section.imggal section.imggal > div {
+  margin: auto;
+}
+@media (max-width: 768px) {
+  main section.imggal.imggal {
+    display: flex;
+    flex-direction: column;
+  }
+  main section.imggal .ul-linea {
+    margin-bottom: 5rem;
+  }
+}
+main section .imgs {
+  margin: 1rem auto;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+main.doscolumnas {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+@media (max-width: 768px) {
+  main.doscolumnas.doscolumnas {
+    display: flex;
+    flex-direction: column;
+    /* Para evitar que se superpongan los Iframes. */
+  }
+}
+main.doscolumnas .ul-linea {
+  margin-bottom: 5rem;
+  /* Para evitar que el footer se ponga delante de la ultima linea de texto de la pagina. */
+}
+@media (max-width: 420px) {
+  main iframe {
+    max-width: 300px;
+    max-height: 300px;
+  }
+}
+main .margi {
+  margin: 0 auto;
+}
+
+footer.footer {
+  background-color: rgb(0, 0, 0);
+  color: #FFFBE0;
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer img {
+  width: 50px;
+  height: auto;
+}
+footer p {
+  font-size: 15px;
+}
+@media (max-width: 768px) {
+  footer.footer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+body {
+  min-height: 100vh;
+  color: #222831;
+  font-family: "Bitter", serif;
+  background-image: url(../img/tae21.png);
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 7.5em;
+}
+
+header {
+  background-color: #FCDA05; /* Color navegacion */
+}
+header .menu {
+  text-decoration: none;
+  color: black; /* Color navegacion */
+}
+header .menu2 {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between; /* Display navegacion */
+}
+
+/*# sourceMappingURL=styles.css.map */

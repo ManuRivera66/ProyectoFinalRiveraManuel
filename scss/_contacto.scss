@@ -1,0 +1,61 @@
+main {
+    section {
+
+        &.formu {
+            background-color: #393E46;
+            padding: 2rem;
+            margin: 1rem 1rem;
+            color: #FCDA05;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            
+            /* Formulario del contacto */ 
+        }
+
+        .formuparte {
+            margin: 2rem;
+        }
+        
+        .contacto {
+            margin: 5rem;
+            text-align: center;
+        }
+
+        .animacion :hover {
+            transform: translatey(12rem); /*Animacion en el boton para que no se pueda apretar*/ 
+        }
+
+        .boton {
+            color: $amafuerte;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-weight: bold;
+            border-radius: .5rem;
+            text-align: center;
+            border: none;
+        }
+
+        .nombre {
+            margin: 1rem;
+        }
+
+        .email {
+            margin: 1.5rem;
+        }
+        
+        .telefono {
+            margin: 0.8rem;
+        }
+
+        .mensaje {
+            margin: 1rem;
+        }
+
+        .horario {
+            margin: 0.3rem;
+        }
+    }
+}
