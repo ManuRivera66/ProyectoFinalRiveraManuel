@@ -19,13 +19,5 @@ footer {
     p{
         font-size: 15px;
     }
-
-    @media (max-width:768px) {
-        &.footer {
-            display: flex;
-            flex-direction: column;
-        }
-
-    }
     
 }

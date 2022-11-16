@@ -91,6 +91,7 @@ main .menui {
   display: flex;
   justify-content: center;
   font-size: larger;
+  margin: 50rem;
 }
 
 main.doscolumnas-ins {
@@ -177,15 +178,13 @@ footer img {
 footer p {
   font-size: 15px;
 }
-@media (max-width: 768px) {
-  footer.footer {
-    display: flex;
-    flex-direction: column;
-  }
+
+html {
+  height: 100%;
 }
 
 body {
-  min-height: 100vh;
+  min-height: 100%;
   color: #222831;
   font-family: "Bitter", serif;
   background-image: url(../img/tae21.png);

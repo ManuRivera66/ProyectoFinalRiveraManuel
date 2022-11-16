@@ -1,6 +1,10 @@
 @mixin fullPage {
-    min-height: 100vh;
+    min-height: 100%;
     color: #222831; 
+ }
+
+ html {
+    height: 100%;
  }
 
 body {
